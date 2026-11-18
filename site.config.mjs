@@ -2,9 +2,9 @@
 export default {
   name: 'stickerio',
   publisher: '',
-  contactEmail: '',
+  contactEmail: 'dev@kerja.online',
   storeUrl: '',
   siteUrl: '',
   updated: '18 November 2026',
-  policyVersion: '1.0',
+  policyVersion: '1.1',
 };
