@@ -111,21 +111,33 @@ atau permintaan resource eksternal. Screenshot dan laporan berada di
 Folder ini memiliki repository Git sendiri. Proyek Android/backend mengabaikan
 `/landing/`, sehingga situs tidak ikut commit proyek utama dan bukan submodule.
 
-**`assets/store/` tidak masuk Git.** File PNG hasil ekspor tetap tersedia secara
-lokal. Sumber HTML/CSS/SVG dan screenshot `assets/screens/` tetap masuk Git agar
-gambar dapat dibuat ulang. `previews/` dan `node_modules/` juga diabaikan.
+**`assets/store/` disertakan dalam Git** agar galeri dan unduhan PNG langsung
+tersedia setelah clone atau publikasi lewat GitHub Pages. Sumber HTML/CSS/SVG
+dan screenshot `assets/screens/` juga disertakan agar gambar dapat dibuat ulang.
+`previews/` dan `node_modules/` tetap diabaikan.
 
-Setelah clone repository landing di komputer baru, jalankan `npm run export`
-untuk menghasilkan PNG yang digunakan galeri sebelum preview, pemeriksaan,
-atau deployment. Perintah ini memerlukan Chrome/Chromium seperti dijelaskan
-di bagian ekspor. Menjalankan `npm run build` saja hanya membuat HTML dan tidak
-menghasilkan PNG. Hosting tetap perlu menerima hasil PNG lokal tersebut meski
-file tersebut tidak disimpan di Git.
+Tidak perlu menjalankan ekspor untuk sekadar membuka atau menerbitkan situs.
+Jika desain/screenshot diubah, jalankan `npm run export`, lalu commit sumber
+serta PNG hasil terbarunya. Menjalankan `npm run build` saja hanya membuat HTML.
+
+### GitHub Pages
+
+Repository landing: `https://github.com/Zakkurozu/stickerio`.
+Di **Settings → Pages**, pilih **Deploy from a branch**, branch **main**,
+folder **/(root)**, lalu **Save**. File `.nojekyll` disertakan agar situs statis
+dipublikasikan tanpa pemrosesan Jekyll. Tidak diperlukan workflow build khusus
+untuk situs yang HTML dan PNG-nya sudah disertakan ini.
+
+Alamat default setelah Pages diaktifkan: `https://zakkurozu.github.io/stickerio/`.
+Pengaturan Pages perlu diaktifkan di GitHub; memasukkan aset ke Git saja tidak
+mengaktifkan hosting. Tautan aset menggunakan path relatif dan mendukung
+subfolder `/stickerio/` tersebut.
 
 Publikasikan empat HTML root beserta folder `assets/` ke static hosting pilihanmu.
 Tidak ada build server, database, environment rahasia, atau API yang diperlukan.
 Jangan memakai root seluruh repo sebagai document root; cukup direktori publik
-HTML + `assets/`. Tidak ada deploy atau push GitHub yang dilakukan dalam tugas ini.
+HTML + `assets/`. Untuk GitHub Pages dari branch, file situs dan aset sudah
+tersedia di root repository.
 
 Setelah alamat publik tersedia, atur aplikasi dengan URL asli:
 

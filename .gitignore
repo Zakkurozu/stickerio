@@ -2,6 +2,4 @@ previews/
 node_modules/
 .DS_Store
 
-# Exported listing assets are generated locally, not committed.
-/assets/store/
 .env*
