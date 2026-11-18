@@ -1,0 +1,11 @@
+{
+  "name": "stickerio-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "export": "node scripts/export.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

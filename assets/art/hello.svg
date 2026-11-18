@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="170" viewBox="0 0 240 170">
+  <path d="M22 27Q19 11 43 11H202Q227 11 226 37L218 112Q216 132 193 132H88L51 158 57 132H36Q12 132 15 108Z" fill="#fff" stroke="#fff" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M22 27Q19 11 43 11H202Q227 11 226 37L218 112Q216 132 193 132H88L51 158 57 132H36Q12 132 15 108Z" fill="#f6cb68" stroke="#1e513c" stroke-width="3" stroke-linejoin="round"/>
+  <text x="119" y="90" fill="#1e513c" font-family="Arial,sans-serif" font-size="60" font-weight="800" text-anchor="middle" transform="rotate(-5 119 90)">halo!</text>
+</svg>
