@@ -1,7 +1,7 @@
 // Fill these before publication. No fake address, publisher identity, or store link is used.
 export default {
   name: 'stickerio',
-  publisher: '',
+  publisher: 'stickerio dev',
   contactEmail: 'dev@kerja.online',
   storeUrl: '',
   siteUrl: '',
