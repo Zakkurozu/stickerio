@@ -22,7 +22,7 @@ body {
   background:var(--bg);
   color:var(--ink);
   font-family:var(--font);
-  font-size:16px;
+  font-size:19px;
   line-height:1.65;
   -webkit-font-smoothing:antialiased
 }
@@ -63,7 +63,7 @@ h1 {
   letter-spacing:-4px
 }
 h2 {
-  font-size:44px;
+  font-size:46px;
   letter-spacing:-1.8px
 }
 h3 {
@@ -86,7 +86,7 @@ p {
   display:inline-flex;
   align-items:center;
   gap:10px;
-  font-size:10px;
+  font-size:14px;
   font-weight:750;
   letter-spacing:2.1px;
   color:var(--green)
@@ -124,7 +124,7 @@ p {
   align-items:center;
   gap:10px;
   font-weight:750;
-  font-size:29px;
+  font-size:31px;
   letter-spacing:-1.3px;
   line-height:1.1
 }
@@ -144,7 +144,7 @@ p {
   display:flex;
   align-items:center;
   gap:30px;
-  font-size:12px;
+  font-size:15px;
   font-weight:600
 }
 .site-header nav>a:hover,.site-footer a:hover {
@@ -202,7 +202,7 @@ p {
   z-index:-1
 }
 .hero-copy>p {
-  font-size:17px;
+  font-size:19px;
   line-height:1.85
 }
 .hero-copy strong {
@@ -222,7 +222,7 @@ p {
   gap:22px;
   padding:16px 24px;
   border-radius:40px;
-  font-size:13px;
+  font-size:16px;
   font-weight:600;
   line-height:1.5;
   transition:transform .2s,background .2s
@@ -245,7 +245,7 @@ p {
   display:inline-flex;
   align-items:center;
   gap:12px;
-  font-size:12px;
+  font-size:15px;
   font-weight:650
 }
 .text-link:hover {
@@ -261,7 +261,7 @@ p {
   gap:10px;
   align-items:center;
   margin-top:25px;
-  font-size:10px;
+  font-size:14px;
   color:var(--muted)
 }
 .hero-note .icon {
@@ -381,7 +381,7 @@ p {
   left:-3px;
   bottom:18px;
   z-index:4;
-  font-size:12px;
+  font-size:15px;
   line-height:1.6;
   color:#4c6a52;
   transform:rotate(-6deg)
@@ -413,7 +413,7 @@ p {
   display:flex;
   gap:12px;
   align-items:center;
-  font-size:12px;
+  font-size:15px;
   font-weight:550
 }
 .promise-strip .icon {
@@ -435,7 +435,7 @@ p {
   margin-top:16px
 }
 .section-heading>p {
-  font-size:13px;
+  font-size:16px;
   line-height:1.8;
   padding-bottom:5px
 }
@@ -468,11 +468,11 @@ p {
   height:21px
 }
 .feature-card h3 {
-  font-size:26px;
+  font-size:28px;
   line-height:1.17
 }
 .feature-card p {
-  font-size:12px;
+  font-size:15px;
   line-height:1.8;
   margin-top:15px;
   max-width:250px
@@ -555,7 +555,7 @@ p {
   padding:3px 11px;
   border:1px solid #d8decd;
   border-radius:8px;
-  font-size:15px;
+  font-size:18px;
   color:var(--green);
   font-weight:700;
   box-shadow:0 3px 0 #bdcbb4
@@ -592,7 +592,7 @@ p {
   gap:8px;
   align-items:center;
   border-radius:20px;
-  font-size:8px;
+  font-size:12px;
   letter-spacing:1px;
   font-weight:700;
   z-index:2
@@ -615,7 +615,7 @@ p {
   border:1px solid #d5dece;
   padding:10px 13px;
   border-radius:12px;
-  font-size:12px;
+  font-size:15px;
   font-weight:600
 }
 .privacy-choice>span:first-child {
@@ -630,7 +630,7 @@ p {
   margin-left:auto
 }
 .privacy-choice i {
-  font-size:8px;
+  font-size:12px;
   font-style:normal;
   font-weight:450;
   color:var(--muted)
@@ -664,16 +664,16 @@ p {
   padding-top:24px
 }
 .step-number {
-  font-size:13px;
+  font-size:16px;
   font-weight:700;
   color:#748a6d
 }
 .steps h3 {
-  font-size:21px;
+  font-size:23px;
   margin-top:22px
 }
 .steps p {
-  font-size:13px;
+  font-size:16px;
   line-height:1.85;
   margin-top:14px;
   max-width:270px
@@ -685,10 +685,10 @@ p {
 }
 .faq-section h2 {
   margin-top:16px;
-  font-size:38px
+  font-size:40px
 }
 .faq-section>div>p {
-  font-size:13px;
+  font-size:16px;
   margin-top:20px;
   max-width:290px
 }
@@ -706,7 +706,7 @@ summary {
   justify-content:space-between;
   gap:20px;
   padding:21px 0;
-  font-size:14px;
+  font-size:17px;
   font-weight:600
 }
 summary::-webkit-details-marker {
@@ -723,7 +723,7 @@ details[open] summary>span {
 }
 details>p {
   padding:0 32px 22px 0;
-  font-size:13px;
+  font-size:16px;
   line-height:1.85
 }
 details a {
@@ -768,7 +768,7 @@ details a {
   align-items:center;
   justify-content:space-between;
   gap:4px;
-  font-size:10px;
+  font-size:14px;
   margin-top:13px;
   line-height:1.4
 }
@@ -778,7 +778,7 @@ details a {
   gap:7px
 }
 .gallery-card small {
-  font-size:8px;
+  font-size:12px;
   color:#7d8b71
 }
 .gallery-card figcaption>a {
@@ -796,11 +796,11 @@ details a {
   gap:20px
 }
 .gallery-foot>span {
-  font-size:11px;
+  font-size:14px;
   color:#61725b
 }
 .gallery-foot .text-link {
-  font-size:11px
+  font-size:14px
 }
 .contact-section {
   display:grid;
@@ -810,7 +810,7 @@ details a {
   padding-block:85px
 }
 .contact-section h2 {
-  font-size:37px;
+  font-size:39px;
   margin-top:15px
 }
 .contact-card {
@@ -827,17 +827,17 @@ details a {
   color:#93a286
 }
 .contact-card h3 {
-  font-size:19px
+  font-size:21px
 }
 .contact-card p {
   margin-top:12px;
-  font-size:13px;
+  font-size:16px;
   max-width:340px
 }
 .contact-pending {
   display:inline-block;
   margin-top:16px;
-  font-size:10px;
+  font-size:14px;
   font-weight:600;
   border:1px solid var(--line);
   padding:3px 10px;
@@ -859,7 +859,7 @@ details a {
 }
 .closing>.eyebrow {
   color:#bad3b5;
-  font-size:9px
+  font-size:13px
 }
 .closing h2 {
   font-size:53px;
@@ -885,7 +885,7 @@ details a {
   transform:rotate(17deg)
 }
 .release-note {
-  font-size:10px;
+  font-size:14px;
   margin-top:16px;
   color:#d2ddcb
 }
@@ -901,7 +901,7 @@ details a {
   padding-bottom:36px
 }
 .footer-top .brand {
-  font-size:25px
+  font-size:27px
 }
 .footer-top .brand img {
   width:32px;
@@ -909,13 +909,13 @@ details a {
   border-radius:10px
 }
 .footer-top p {
-  font-size:11px;
+  font-size:14px;
   margin-top:10px
 }
 .footer-top nav {
   display:flex;
   gap:25px;
-  font-size:11px
+  font-size:14px
 }
 .footer-bottom {
   border-top:1px solid var(--line);
@@ -924,7 +924,7 @@ details a {
   justify-content:space-between;
   gap:15px;
   color:#7b8678;
-  font-size:9px
+  font-size:13px
 }
 dialog {
   padding:0;
@@ -952,7 +952,7 @@ dialog::backdrop {
   border-bottom:1px solid var(--line)
 }
 .viewer-toolbar h2 {
-  font-size:16px;
+  font-size:19px;
   letter-spacing:-.3px
 }
 .viewer-toolbar>div {
@@ -961,7 +961,7 @@ dialog::backdrop {
   gap:20px
 }
 .viewer-download {
-  font-size:11px;
+  font-size:14px;
   display:inline-flex;
   align-items:center;
   gap:8px
@@ -994,7 +994,7 @@ dialog::backdrop {
   padding-bottom:90px
 }
 .back-link {
-  font-size:11px;
+  font-size:14px;
   color:var(--muted)
 }
 .back-link:hover {
@@ -1011,14 +1011,14 @@ dialog::backdrop {
   letter-spacing:-2.5px
 }
 .legal-header>p {
-  font-size:17px;
+  font-size:19px;
   max-width:650px
 }
 .legal-meta {
   display:flex;
   gap:25px;
   margin-top:22px;
-  font-size:10px;
+  font-size:14px;
   color:#73806f
 }
 .draft-notice {
@@ -1026,7 +1026,7 @@ dialog::backdrop {
   border:1px solid #dcccaa;
   border-radius:16px;
   background:#f4f0e4;
-  font-size:12px;
+  font-size:15px;
   color:#6a614a;
   line-height:1.8;
   max-width:100%;
@@ -1047,7 +1047,7 @@ dialog::backdrop {
   top:28px
 }
 .legal-sidebar nav>p {
-  font-size:9px;
+  font-size:13px;
   letter-spacing:1.6px;
   font-weight:700;
   margin-bottom:17px
@@ -1056,7 +1056,7 @@ dialog::backdrop {
   display:flex;
   gap:11px;
   align-items:baseline;
-  font-size:11px;
+  font-size:14px;
   line-height:1.55;
   margin-bottom:15px;
   color:#6a7968
@@ -1065,7 +1065,7 @@ dialog::backdrop {
   color:var(--green)
 }
 .legal-sidebar a>span {
-  font-size:9px;
+  font-size:13px;
   opacity:.7;
   min-width:15px
 }
@@ -1078,18 +1078,18 @@ dialog::backdrop {
   scroll-margin-top:30px
 }
 .legal-number {
-  font-size:10px;
+  font-size:14px;
   padding-top:6px;
   color:#87977e
 }
 .legal-section h2 {
-  font-size:24px;
+  font-size:26px;
   letter-spacing:-.5px;
   line-height:1.25;
   margin-bottom:20px
 }
 .legal-section p {
-  font-size:14px;
+  font-size:17px;
   line-height:1.95;
   margin-top:15px;
   color:#556453
@@ -1113,11 +1113,11 @@ dialog::backdrop {
   margin-bottom:14px
 }
 .policy-contact h2 {
-  font-size:24px;
+  font-size:26px;
   letter-spacing:-.6px
 }
 .policy-contact p {
-  font-size:12px;
+  font-size:15px;
   line-height:1.85;
   margin-top:14px
 }
@@ -1131,7 +1131,7 @@ dialog::backdrop {
   justify-content:space-between;
   border-top:1px solid var(--line);
   padding-top:22px;
-  font-size:13px;
+  font-size:16px;
   font-weight:600
 }
 /* Editable HTML artboards. PNG exports render these at 1:1, without scaling. */
@@ -1139,12 +1139,12 @@ dialog::backdrop {
   padding-block:60px 45px
 }
 .mockup-intro h1 {
-  font-size:48px;
+  font-size:50px;
   letter-spacing:-2px;
   margin-top:15px
 }
 .mockup-intro p {
-  font-size:13px;
+  font-size:16px;
   margin-block:20px
 }
 .mockup-grid {
@@ -1481,7 +1481,7 @@ dialog::backdrop {
     width:calc(100% - 64px)
   }
   h2 {
-    font-size:38px
+    font-size:40px
   }
   .hero {
     min-height:680px
@@ -1500,7 +1500,7 @@ dialog::backdrop {
     height:460px
   }
   .hero-copy>p {
-    font-size:15px
+    font-size:18px
   }
   .float-hello {
     width:125px;
@@ -1518,14 +1518,14 @@ dialog::backdrop {
     height:60px
   }
   .floating-note {
-    font-size:10px;
+    font-size:14px;
     bottom:30px
   }
   .hero-actions {
     gap:20px
   }
   .hero-actions .text-link {
-    font-size:11px
+    font-size:14px
   }
   .button {
     padding:15px 20px;
@@ -1536,24 +1536,24 @@ dialog::backdrop {
     min-height:430px
   }
   .feature-card h3 {
-    font-size:23px
+    font-size:25px
   }
   .feature-grid {
     grid-template-columns:1.2fr 1fr 1fr;
     gap:14px
   }
   .feature-card p {
-    font-size:11px
+    font-size:14px
   }
   .privacy-choice>span {
     padding:9px;
-    font-size:11px
+    font-size:14px
   }
   .vignette-cat {
     right:-30px
   }
   .sticker-word {
-    font-size:12px;
+    font-size:15px;
     left:-5px
   }
   .faq-section {
@@ -1563,7 +1563,7 @@ dialog::backdrop {
     gap:12px
   }
   .gallery-card figcaption {
-    font-size:9px
+    font-size:13px
   }
   .gallery-card small {
     display:none
@@ -1584,13 +1584,13 @@ dialog::backdrop {
     gap:21px
   }
   .site-header nav>a {
-    font-size:11px
+    font-size:14px
   }
   .site-header nav .nav-button {
     display:none
   }
   .brand {
-    font-size:26px
+    font-size:28px
   }
   .hero {
     grid-template-columns:1fr;
@@ -1603,7 +1603,7 @@ dialog::backdrop {
     padding:0
   }
   .hero .eyebrow {
-    font-size:9px
+    font-size:13px
   }
   .hero h1 {
     font-size:75px;
@@ -1611,7 +1611,7 @@ dialog::backdrop {
     margin-top:24px
   }
   .hero-copy>p {
-    font-size:16px
+    font-size:19px
   }
   .hero-actions,.hero-note {
     justify-content:center
@@ -1660,7 +1660,7 @@ dialog::backdrop {
     padding-block:25px
   }
   .promise-strip span {
-    font-size:11px;
+    font-size:14px;
     min-width:180px
   }
   .section {
@@ -1671,7 +1671,7 @@ dialog::backdrop {
     align-items:flex-start
   }
   .section-heading>p {
-    font-size:11px;
+    font-size:14px;
     max-width:200px
   }
   .feature-grid {
@@ -1688,7 +1688,7 @@ dialog::backdrop {
     max-width:240px
   }
   .feature-copy h3,.feature-card h3 {
-    font-size:26px
+    font-size:28px
   }
   .editor-vignette {
     height:220px;
@@ -1709,7 +1709,7 @@ dialog::backdrop {
   .sticker-word {
     left:0;
     top:96px;
-    font-size:15px
+    font-size:18px
   }
   .mini-tools {
     bottom:-8px;
@@ -1720,7 +1720,7 @@ dialog::backdrop {
     padding:28px
   }
   .feature-card p {
-    font-size:13px
+    font-size:16px
   }
   .feature-editor {
     min-height:295px
@@ -1744,10 +1744,10 @@ dialog::backdrop {
     gap:27px
   }
   .steps h3 {
-    font-size:18px
+    font-size:20px
   }
   .steps p {
-    font-size:12px
+    font-size:15px
   }
   .faq-section {
     grid-template-columns:1fr;
@@ -1770,7 +1770,7 @@ dialog::backdrop {
     scroll-snap-align:start
   }
   .gallery-card figcaption {
-    font-size:11px
+    font-size:14px
   }
   .gallery-card small {
     display:inline-block
@@ -1779,10 +1779,10 @@ dialog::backdrop {
     gap:35px
   }
   .contact-section h2 {
-    font-size:32px
+    font-size:34px
   }
   .closing h2 {
-    font-size:46px
+    font-size:48px
   }
   .closing-spark {
     right:5%;
@@ -1819,7 +1819,7 @@ dialog::backdrop {
     padding:7px 10px;
     border:1px solid var(--line);
     border-radius:8px;
-    font-size:10px
+    font-size:14px
   }
   .legal-sidebar a>span {
     display:none
@@ -1831,7 +1831,7 @@ dialog::backdrop {
     padding-block:25px
   }
   .legal-header>p {
-    font-size:15px
+    font-size:18px
   }
   .feature-scale {
     width:614.4px;
@@ -1849,7 +1849,7 @@ dialog::backdrop {
     height:78px
   }
   .brand {
-    font-size:25px;
+    font-size:27px;
     gap:8px
   }
   .brand img {
@@ -1901,7 +1901,7 @@ dialog::backdrop {
     gap:0
   }
   .site-header nav a {
-    font-size:13px;
+    font-size:16px;
     padding:10px
   }
   .site-header nav a.nav-button {
@@ -1914,7 +1914,7 @@ dialog::backdrop {
     padding-top:43px
   }
   .hero .eyebrow {
-    font-size:8px;
+    font-size:12px;
     letter-spacing:1.6px;
     gap:7px
   }
@@ -1931,7 +1931,7 @@ dialog::backdrop {
     bottom:-5px
   }
   .hero-copy>p {
-    font-size:14px;
+    font-size:17px;
     line-height:1.85
   }
   .hero-actions {
@@ -1939,21 +1939,21 @@ dialog::backdrop {
     margin-top:26px
   }
   .button {
-    font-size:11px;
+    font-size:14px;
     padding:14px 18px;
     gap:13px
   }
   .hero-actions .text-link {
-    font-size:10px;
+    font-size:14px;
     gap:7px
   }
   .hero-note {
-    font-size:9px;
+    font-size:13px;
     gap:6px;
     margin-top:21px
   }
   .hero-art {
-    min-height:555px
+    min-height:625px
   }
   .hero-phone {
     width:216px;
@@ -1986,9 +1986,9 @@ dialog::backdrop {
     font-size:42px
   }
   .floating-note {
-    font-size:9px;
+    font-size:13px;
     left:0;
-    bottom:25px
+    bottom:0
   }
   .floating-note svg {
     left:93px;
@@ -2002,7 +2002,7 @@ dialog::backdrop {
   }
   .promise-strip span {
     min-width:0;
-    font-size:9px;
+    font-size:13px;
     gap:8px
   }
   .promise-strip .icon {
@@ -2017,11 +2017,11 @@ dialog::backdrop {
     margin-bottom:28px
   }
   .eyebrow {
-    font-size:8px;
+    font-size:12px;
     letter-spacing:1.7px
   }
   h2 {
-    font-size:32px;
+    font-size:34px;
     letter-spacing:-1.2px
   }
   .section-heading h2 {
@@ -2029,7 +2029,7 @@ dialog::backdrop {
   }
   .section-heading>p {
     margin-top:19px;
-    font-size:12px;
+    font-size:15px;
     max-width:none
   }
   .feature-grid {
@@ -2045,11 +2045,11 @@ dialog::backdrop {
     min-height:440px
   }
   .feature-card h3 {
-    font-size:27px
+    font-size:29px
   }
   .feature-card p {
     max-width:290px;
-    font-size:13px
+    font-size:16px
   }
   .feature-icon {
     margin-bottom:17px;
@@ -2077,7 +2077,7 @@ dialog::backdrop {
     top:-10px
   }
   .sticker-word {
-    font-size:13px;
+    font-size:16px;
     left:0;
     top:40px
   }
@@ -2087,18 +2087,19 @@ dialog::backdrop {
     padding:10px
   }
   .feature-motion {
-    min-height:340px
+    min-height:0
   }
   .motion-art {
-    position:absolute;
-    bottom:22px;
-    right:28px;
+    position:relative;
+    bottom:auto;
+    right:auto;
     width:170px;
     height:145px;
+    margin:0 0 0 auto;
     pointer-events:none
   }
   .feature-motion p {
-    max-width:190px;
+    max-width:none;
     position:relative;
     z-index:3
   }
@@ -2127,7 +2128,7 @@ dialog::backdrop {
     margin-left:auto
   }
   .privacy-choice>span {
-    font-size:11px;
+    font-size:14px;
     padding:8px 12px
   }
   .how-section {
@@ -2162,34 +2163,34 @@ dialog::backdrop {
     position:absolute;
     left:0;
     top:20px;
-    font-size:11px
+    font-size:14px
   }
   .steps h3 {
     margin-top:0;
-    font-size:21px
+    font-size:23px
   }
   .steps p {
     max-width:none;
-    font-size:13px;
+    font-size:16px;
     margin-top:10px
   }
   .faq-section {
     gap:27px
   }
   .faq-section h2 {
-    font-size:31px
+    font-size:33px
   }
   .faq-section>div>p {
-    font-size:12px;
+    font-size:15px;
     margin-top:15px
   }
   summary {
-    font-size:12px;
+    font-size:15px;
     padding:19px 0;
     gap:10px
   }
   details>p {
-    font-size:12px;
+    font-size:15px;
     padding-right:15px
   }
   .gallery-section {
@@ -2207,7 +2208,7 @@ dialog::backdrop {
     margin-top:20px
   }
   .gallery-foot>span {
-    font-size:10px
+    font-size:14px
   }
   .contact-section {
     grid-template-columns:1fr;
@@ -2215,7 +2216,7 @@ dialog::backdrop {
     padding-block:60px
   }
   .contact-section h2 {
-    font-size:32px
+    font-size:34px
   }
   .contact-card {
     padding:24px
@@ -2226,11 +2227,11 @@ dialog::backdrop {
     margin-bottom:50px
   }
   .closing h2 {
-    font-size:37px;
+    font-size:39px;
     letter-spacing:-1.3px
   }
   .closing .eyebrow {
-    font-size:7px;
+    font-size:11px;
     letter-spacing:1.2px
   }
   .closing-spark {
@@ -2244,7 +2245,7 @@ dialog::backdrop {
     margin-top:24px
   }
   .release-note {
-    font-size:8px
+    font-size:12px
   }
   .site-footer {
     padding-top:30px
@@ -2258,13 +2259,13 @@ dialog::backdrop {
     display:flex;
     flex-wrap:wrap;
     gap:11px 19px;
-    font-size:10px
+    font-size:14px
   }
   .footer-top p {
-    font-size:10px
+    font-size:14px
   }
   .footer-bottom {
-    font-size:8px;
+    font-size:12px;
     gap:9px;
     align-items:flex-start;
     flex-direction:column
@@ -2274,13 +2275,13 @@ dialog::backdrop {
     gap:10px
   }
   .viewer-toolbar h2 {
-    font-size:13px
+    font-size:16px
   }
   .viewer-toolbar>div {
     gap:10px
   }
   .viewer-download {
-    font-size:9px
+    font-size:13px
   }
   .viewer-download .icon {
     display:none
@@ -2298,21 +2299,21 @@ dialog::backdrop {
     padding-bottom:26px
   }
   .legal-header h1 {
-    font-size:42px;
+    font-size:44px;
     letter-spacing:-1.8px;
     margin-top:17px
   }
   .legal-header>p {
-    font-size:14px
+    font-size:17px
   }
   .legal-meta {
-    font-size:9px;
+    font-size:13px;
     gap:15px;
     flex-wrap:wrap;
     margin-top:17px
   }
   .draft-notice {
-    font-size:11px;
+    font-size:14px;
     padding:16px 18px;
     margin-bottom:27px
   }
@@ -2320,43 +2321,43 @@ dialog::backdrop {
     gap:7px
   }
   .legal-sidebar a {
-    font-size:9px
+    font-size:13px
   }
   .legal-section {
     grid-template-columns:18px minmax(0,1fr);
     gap:10px
   }
   .legal-section h2 {
-    font-size:21px;
+    font-size:23px;
     margin-bottom:15px;
     line-height:1.25
   }
   .legal-section p {
-    font-size:13px;
+    font-size:16px;
     line-height:1.9
   }
   .legal-number {
-    font-size:8px;
+    font-size:12px;
     padding-top:6px
   }
   .policy-contact {
     padding:23px
   }
   .policy-contact h2 {
-    font-size:22px
+    font-size:24px
   }
   .policy-contact p {
-    font-size:11px
+    font-size:14px
   }
   .mockup-intro {
     padding-block:40px 30px
   }
   .mockup-intro h1 {
-    font-size:35px;
+    font-size:37px;
     letter-spacing:-1.5px
   }
   .mockup-intro p {
-    font-size:12px
+    font-size:15px
   }
   .mockup-grid {
     grid-template-columns:300px;
@@ -2371,10 +2372,27 @@ dialog::backdrop {
     transform:scale(.3)
   }
   .supplemental .text-link {
-    font-size:10px
+    font-size:14px
   }
   .supplemental {
     gap:15px
+  }
+}
+@media(max-width:380px) {
+  .hero-actions {
+    flex-direction:column;
+    gap:16px
+  }
+  .hero-actions .button {
+    min-width:190px
+  }
+  .hero-actions .text-link {
+    white-space:nowrap
+  }
+  .how-sticker {
+    width:65px;
+    height:55px;
+    top:-20px
   }
 }
 @media(prefers-reduced-motion:reduce) {
@@ -2400,7 +2418,7 @@ dialog::backdrop {
     padding:0
   }
   .legal-header h1 {
-    font-size:36px
+    font-size:38px
   }
   .legal-section {
     break-inside:avoid
