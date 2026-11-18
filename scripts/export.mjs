@@ -10,7 +10,7 @@ try {
   const manifest=JSON.parse(await readFile(root+'assets/export-manifest.json','utf8'));
   await mkdir(root+'assets/store', {recursive:true});
   for(const item of manifest) {
-    await browser.navigate(local.url+'/mockups.html',item.width,item.height);
+    await browser.navigate(local.url+'/mockups/',item.width,item.height);
     await browser.evaluate(`(()=>{document.body.classList.add('export-mode');document.getElementById(${JSON.stringify(item.id)}).classList.add('export-target');return true})()`);
     if(item.id==='store-icon') {
       await browser.call('Emulation.setDefaultBackgroundColorOverride',{color:{r:0,g:0,b:0,a:0}});
